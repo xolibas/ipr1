@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="intershipModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Check">
+    <Key>
+      <PropertyRef Name="CId" />
+    </Key>
+    <Property Name="CId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Word" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Words" Relationship="Self.FK_Words_Check" FromRole="Checks" ToRole="Words" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Word">
+    <Key>
+      <PropertyRef Name="WId" />
+    </Key>
+    <Property Name="WId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="ChId" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="Check" Relationship="Self.FK_Words_Check" FromRole="Words" ToRole="Checks" />
+  </EntityType>
+  <Association Name="FK_Words_Check">
+    <End Role="Checks" Type="Self.Check" Multiplicity="1" />
+    <End Role="Words" Type="Self.Word" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Checks">
+        <PropertyRef Name="CId" />
+      </Principal>
+      <Dependent Role="Words">
+        <PropertyRef Name="ChId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="intershipEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Checks" EntityType="Self.Check" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Words" EntityType="Self.Word" />
+    <AssociationSet Name="FK_Words_Check" Association="Self.FK_Words_Check">
+      <End Role="Checks" EntitySet="Checks" />
+      <End Role="Words" EntitySet="Words" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

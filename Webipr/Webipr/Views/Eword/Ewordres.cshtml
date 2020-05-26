@@ -1,0 +1,12 @@
+﻿@model List<string>
+@{
+    ViewBag.Title = "Ewordres";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>All words, which you can make from the letters of entered word:</h3>
+@foreach (string value in Model)
+{
+    @value<br />
+}
+

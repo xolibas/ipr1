@@ -1,0 +1,12 @@
+C:\Intership\Conipr\Conipr\bin\Debug\Conipr.exe.config
+C:\Intership\Conipr\Conipr\bin\Debug\Conipr.exe
+C:\Intership\Conipr\Conipr\bin\Debug\Conipr.pdb
+C:\Intership\Conipr\Conipr\bin\Debug\EntityFramework.dll
+C:\Intership\Conipr\Conipr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Intership\Conipr\Conipr\bin\Debug\EntityFramework.xml
+C:\Intership\Conipr\Conipr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Intership\Conipr\Conipr\obj\Debug\Conipr.csprojAssemblyReference.cache
+C:\Intership\Conipr\Conipr\obj\Debug\Conipr.csproj.CoreCompileInputs.cache
+C:\Intership\Conipr\Conipr\obj\Debug\Conipr.csproj.CopyComplete
+C:\Intership\Conipr\Conipr\obj\Debug\Conipr.exe
+C:\Intership\Conipr\Conipr\obj\Debug\Conipr.pdb

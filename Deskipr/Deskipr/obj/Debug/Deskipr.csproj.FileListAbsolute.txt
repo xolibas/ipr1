@@ -1,0 +1,15 @@
+C:\Intership\Deskipr\Deskipr\bin\Debug\Deskipr.exe.config
+C:\Intership\Deskipr\Deskipr\bin\Debug\Deskipr.exe
+C:\Intership\Deskipr\Deskipr\bin\Debug\Deskipr.pdb
+C:\Intership\Deskipr\Deskipr\bin\Debug\EntityFramework.dll
+C:\Intership\Deskipr\Deskipr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Intership\Deskipr\Deskipr\bin\Debug\EntityFramework.xml
+C:\Intership\Deskipr\Deskipr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.csprojAssemblyReference.cache
+C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.MainForm.resources
+C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.Properties.Resources.resources
+C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.csproj.GenerateResource.cache
+C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.csproj.CoreCompileInputs.cache
+C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.csproj.CopyComplete
+C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.exe
+C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.pdb

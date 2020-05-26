@@ -1,0 +1,49 @@
+﻿@model string[]
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Last requests:</h2>
+@for (int i = 0; i < Model.Length; i++)
+{
+    <h3>@Model[i]</h3>
+    if (i == 0 && ViewData["wordas1"] != null)
+    {
+        foreach (string word in (string[])ViewData["wordas1"])
+        {
+            @word
+            <br />
+        }
+    }
+    if (i == 1 && ViewData["wordas2"] != null)
+    {
+        foreach (string word in (string[])ViewData["wordas2"])
+        {
+            @word
+            <br />
+        }
+    }
+    if (i == 2 && ViewData["wordas3"] != null)
+    {
+        foreach (string word in (string[])ViewData["wordas3"])
+        {
+            @word
+            <br />
+        }
+    }
+    if (i == 3 && ViewData["wordas4"] != null)
+    {
+        foreach (string word in (string[])ViewData["wordas4"])
+        {
+            @word
+            <br />
+        }
+    }
+    if (i == 4 && ViewData["wordas5"] != null)
+    {
+        foreach (string word in (string[])ViewData["wordas5"])
+        {
+            @word
+            <br />
+        }
+    }
+}
