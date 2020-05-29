@@ -9,11 +9,9 @@ namespace Webipr.Controllers
 {
     public class HomeController : Controller
     {
-        intershipEntities db = new intershipEntities();
+
         public ActionResult Index()
         {
-            IEnumerable<Check> checks = db.Checks;
-            ViewBag.Checks = checks;
             return View();
         }
 

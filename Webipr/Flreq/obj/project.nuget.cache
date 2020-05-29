@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "P2GB+q+6uKf3M1WR1471guqAUdgcO8qB0Oufij17x66YNQDHD6ogDNKJo8WUBwmWRt5E8SPL8iSBLOj8MBUBfg==",
+  "success": true,
+  "projectFilePath": "C:\\Intership\\Webipr\\Flreq\\Flreq.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cawak\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

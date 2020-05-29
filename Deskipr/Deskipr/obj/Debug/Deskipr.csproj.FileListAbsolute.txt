@@ -13,3 +13,10 @@ C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.csproj.CoreCompileInputs.cache
 C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.csproj.CopyComplete
 C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.exe
 C:\Intership\Deskipr\Deskipr\obj\Debug\Deskipr.pdb
+C:\Intership\Deskipr\Deskipr\bin\Debug\Conipr.exe
+C:\Intership\Deskipr\Deskipr\bin\Debug\Subprojch.dll
+C:\Intership\Deskipr\Deskipr\bin\Debug\Subprojdb.dll
+C:\Intership\Deskipr\Deskipr\bin\Debug\Conipr.pdb
+C:\Intership\Deskipr\Deskipr\bin\Debug\Subprojch.pdb
+C:\Intership\Deskipr\Deskipr\bin\Debug\Subprojdb.pdb
+C:\Intership\Deskipr\Deskipr\bin\Debug\Subprojdb.dll.config

@@ -53,6 +53,12 @@
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Subprojch">
+      <HintPath>..\..\Conipr\Subprojch\bin\Debug\Subprojch.dll</HintPath>
+    </Reference>
+    <Reference Include="Subprojdb">
+      <HintPath>..\..\Conipr\Subprojdb\bin\Debug\Subprojdb.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SqlClient, Version=4.6.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -132,40 +138,16 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Check.cs">
-      <DependentUpon>intership.tt</DependentUpon>
-    </Compile>
     <Compile Include="Controllers\EwordController.cs" />
     <Compile Include="Controllers\FlreqController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="intership.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>intership.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="intership.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>intership.tt</DependentUpon>
-    </Compile>
-    <Compile Include="intership.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>intership.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Models\Checks.cs" />
     <Compile Include="Models\IntershipContext.cs" />
     <Compile Include="Models\Words.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sysdiagram.cs">
-      <DependentUpon>intership.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Word.cs">
-      <DependentUpon>intership.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -176,25 +158,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="intership.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>intership.edmx</DependentUpon>
-      <LastGenOutput>intership.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="intership.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>intership.edmx</DependentUpon>
-      <LastGenOutput>intership.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="intership.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>intership.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="intership.edmx.diagram">
-      <DependentUpon>intership.edmx</DependentUpon>
-    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

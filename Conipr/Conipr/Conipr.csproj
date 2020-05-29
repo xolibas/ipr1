@@ -55,58 +55,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Checks.cs">
-      <DependentUpon>intership.tt</DependentUpon>
-    </Compile>
-    <Compile Include="intership.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>intership.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="intership.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>intership.tt</DependentUpon>
-    </Compile>
-    <Compile Include="intership.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>intership.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Iprfunc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sysdiagrams.cs">
-      <DependentUpon>intership.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Words.cs">
-      <DependentUpon>intership.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="intership.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>intership.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="intership.edmx.diagram">
-      <DependentUpon>intership.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="intership.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>intership.edmx</DependentUpon>
-      <LastGenOutput>intership.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="intership.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>intership.edmx</DependentUpon>
-      <LastGenOutput>intership.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <ProjectReference Include="..\Subprojch\Subprojch.csproj">
+      <Project>{36f0c10c-fabe-48e0-977c-c89568ccaf51}</Project>
+      <Name>Subprojch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Subprojdb\Subprojdb.csproj">
+      <Project>{60807d26-e06f-4de7-ac5e-a9da99f3e163}</Project>
+      <Name>Subprojdb</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

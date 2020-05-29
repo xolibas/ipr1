@@ -10,3 +10,8 @@ C:\Intership\Conipr\Conipr\obj\Debug\Conipr.csproj.CoreCompileInputs.cache
 C:\Intership\Conipr\Conipr\obj\Debug\Conipr.csproj.CopyComplete
 C:\Intership\Conipr\Conipr\obj\Debug\Conipr.exe
 C:\Intership\Conipr\Conipr\obj\Debug\Conipr.pdb
+C:\Intership\Conipr\Conipr\bin\Debug\Subprojch.dll
+C:\Intership\Conipr\Conipr\bin\Debug\Subprojdb.dll
+C:\Intership\Conipr\Conipr\bin\Debug\Subprojch.pdb
+C:\Intership\Conipr\Conipr\bin\Debug\Subprojdb.pdb
+C:\Intership\Conipr\Conipr\bin\Debug\Subprojdb.dll.config

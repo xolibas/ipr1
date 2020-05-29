@@ -1,0 +1,6 @@
+C:\Intership\Conipr\Subprojch\bin\Debug\Subprojch.dll
+C:\Intership\Conipr\Subprojch\bin\Debug\Subprojch.pdb
+C:\Intership\Conipr\Subprojch\obj\Debug\Subprojch.csprojAssemblyReference.cache
+C:\Intership\Conipr\Subprojch\obj\Debug\Subprojch.csproj.CoreCompileInputs.cache
+C:\Intership\Conipr\Subprojch\obj\Debug\Subprojch.dll
+C:\Intership\Conipr\Subprojch\obj\Debug\Subprojch.pdb

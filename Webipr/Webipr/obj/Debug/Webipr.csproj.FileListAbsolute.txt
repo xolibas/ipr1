@@ -83,3 +83,8 @@ C:\Intership\Webipr\Webipr\bin\EntityFramework.xml
 C:\Intership\Webipr\Webipr\bin\EntityFramework.SqlServer.xml
 C:\Intership\Webipr\Webipr\bin\System.Data.SqlClient.dll
 C:\Intership\Webipr\Webipr\bin\System.Data.SqlClient.xml
+C:\Intership\Webipr\Webipr\bin\Subprojch.dll
+C:\Intership\Webipr\Webipr\bin\Subprojdb.dll
+C:\Intership\Webipr\Webipr\bin\Subprojch.pdb
+C:\Intership\Webipr\Webipr\bin\Subprojdb.pdb
+C:\Intership\Webipr\Webipr\bin\Subprojdb.dll.config

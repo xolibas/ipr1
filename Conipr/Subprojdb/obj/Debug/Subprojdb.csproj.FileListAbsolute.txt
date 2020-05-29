@@ -1,0 +1,14 @@
+C:\Intership\Conipr\Subprojdb\bin\Debug\Subprojdb.dll.config
+C:\Intership\Conipr\Subprojdb\bin\Debug\Subprojdb.dll
+C:\Intership\Conipr\Subprojdb\bin\Debug\Subprojdb.pdb
+C:\Intership\Conipr\Subprojdb\bin\Debug\EntityFramework.dll
+C:\Intership\Conipr\Subprojdb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Intership\Conipr\Subprojdb\bin\Debug\Subprojch.dll
+C:\Intership\Conipr\Subprojdb\bin\Debug\Subprojch.pdb
+C:\Intership\Conipr\Subprojdb\bin\Debug\EntityFramework.xml
+C:\Intership\Conipr\Subprojdb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Intership\Conipr\Subprojdb\obj\Debug\Subprojdb.csprojAssemblyReference.cache
+C:\Intership\Conipr\Subprojdb\obj\Debug\Subprojdb.csproj.CoreCompileInputs.cache
+C:\Intership\Conipr\Subprojdb\obj\Debug\Subprojdb.csproj.CopyComplete
+C:\Intership\Conipr\Subprojdb\obj\Debug\Subprojdb.dll
+C:\Intership\Conipr\Subprojdb\obj\Debug\Subprojdb.pdb

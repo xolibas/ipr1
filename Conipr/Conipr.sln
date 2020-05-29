@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conipr", "Conipr\Conipr.csproj", "{E911A946-689E-4D88-9252-D3552ED24832}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subprojdb", "Subprojdb\Subprojdb.csproj", "{60807D26-E06F-4DE7-AC5E-A9DA99F3E163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subprojch", "Subprojch\Subprojch.csproj", "{36F0C10C-FABE-48E0-977C-C89568CCAF51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E911A946-689E-4D88-9252-D3552ED24832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E911A946-689E-4D88-9252-D3552ED24832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E911A946-689E-4D88-9252-D3552ED24832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60807D26-E06F-4DE7-AC5E-A9DA99F3E163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60807D26-E06F-4DE7-AC5E-A9DA99F3E163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60807D26-E06F-4DE7-AC5E-A9DA99F3E163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60807D26-E06F-4DE7-AC5E-A9DA99F3E163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F0C10C-FABE-48E0-977C-C89568CCAF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F0C10C-FABE-48E0-977C-C89568CCAF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F0C10C-FABE-48E0-977C-C89568CCAF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F0C10C-FABE-48E0-977C-C89568CCAF51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
