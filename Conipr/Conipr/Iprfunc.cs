@@ -41,6 +41,12 @@ namespace Conipr
                         }
                         break;
                     case 2:
+                        checkas.Clear();
+                        wordas1.Clear();
+                        wordas2.Clear();
+                        wordas3.Clear();
+                        wordas4.Clear();
+                        wordas5.Clear();
                         Subprojdb.Dbase.Lastf(checkas,wordas1,wordas2,wordas3,wordas4,wordas5);
                         for (int i = 0; i < checkas.Count(); i++)
                         {

@@ -96,6 +96,12 @@ namespace Deskipr
 
         private void button1_Click(object sender, EventArgs e)
         {
+            checkas.Clear();
+            wordas1.Clear();
+            wordas2.Clear();
+            wordas3.Clear();
+            wordas4.Clear();
+            wordas5.Clear();
             Subprojdb.Dbase.Lastf(checkas,wordas1,wordas2,wordas3,wordas4,wordas5);
             comboBox1.Items.Clear();
             foreach (string check in checkas) comboBox1.Items.Add(check);

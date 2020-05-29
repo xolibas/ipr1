@@ -19,6 +19,12 @@ namespace Webipr.Controllers
         public static List<string> checkas = new List<string>();
         public ActionResult Flreq()
         {
+            checkas.Clear();
+            wordas1.Clear();
+            wordas2.Clear();
+            wordas3.Clear();
+            wordas4.Clear();
+            wordas5.Clear();
             Subprojdb.Dbase.Lastf(checkas,wordas1,wordas2,wordas3,wordas4,wordas5);
             ViewData["wordas1"] = wordas1;
             ViewData["wordas2"] = wordas2;
